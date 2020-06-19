@@ -1,0 +1,33 @@
+#settings-container {
+  background: url('../../images/settingsBg.png') no-repeat;
+}
+h3.settings-title {
+  position: absolute;
+  font-size: 0.7em;
+  text-align: center;
+  width: 100%;
+  height: 3em;
+  padding-top: 1.5em;
+  z-index: 100;
+  margin-top: 0;
+  background: #050539;
+}
+ul.countries-list {
+  font-family: 'Qanelas Regular', serif;
+  margin-top: 2.4em;
+  li {
+    position: relative;
+    width: 9em;
+    margin: 0.7em auto;
+    padding: 0.2em 0.3em;
+    &.checked {
+      background: #11376e;
+      border-radius: 10px;
+    }
+    /*This hack is needed to reserve place*/
+    &:last-child {
+      height: 1.2em;
+      opacity: 0;
+    }
+  }
+}

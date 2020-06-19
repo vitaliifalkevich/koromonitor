@@ -1,0 +1,37 @@
+.btn-icon {
+  outline: none;
+  border: 0;
+  display: block;
+  position: absolute;
+}
+.settings {
+  background: url('../../images/icons/settings.png') no-repeat;
+  width: 1.3em;
+  height: 1.3em;
+  margin-left: -0.65em;
+  margin-top: 7.6em;
+  left: 50%;
+}
+.statistic {
+  background: url('../../images/icons/stat.png') no-repeat;
+  width: 1.3em;
+  height: 1.3em;
+  margin-left: -2.7em;
+  margin-top: 7.6em;
+  left: 50%;
+}
+.trash {
+  background: url('../../images/icons/trash.png') no-repeat;
+  width: 1.3em;
+  height: 1.3em;
+  margin-left: 1.5em;
+  margin-top: 7.6em;
+  left: 50%;
+}
+.back {
+  background: url('../../images/icons/back.png') no-repeat;
+  width: 1em;
+  height: 1.1em;
+  margin-left: 1.5em;
+  margin-top: 3.15em;
+}

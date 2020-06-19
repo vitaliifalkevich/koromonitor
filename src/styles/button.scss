@@ -1,0 +1,84 @@
+@import 'params';
+@import 'mixins';
+
+.btn {
+  outline: none;
+  border: 0;
+  display: block;
+  position: absolute;
+  &.follow,
+  &.unfollow {
+    @include commonBtn;
+    left: 0;
+    margin-left: 0;
+    bottom: -8em;
+    span {
+      color: #ffffff;
+      margin-top: -4.8em;
+      display: block;
+      font-family: 'Qanelas ExtraBold', serif;
+      text-transform: uppercase;
+      font-size: 0.95em;
+    }
+    &:active,
+    &:focus,
+    &:hover {
+      background: $hoverBtn;
+      border: 0.4em solid $borderActiveBtn;
+      bottom: -7.6em;
+    }
+    &:active span,
+    &:focus span,
+    &:hover span {
+      margin-top: -4.4em;
+    }
+  }
+  &.prev {
+    @include commonBtn;
+    top: 0;
+    margin-top: 0;
+    left: -8.7em;
+    span {
+      width: 5.5em;
+      color: #ffffff;
+      margin-left: 9.2em;
+      @include btnSpan;
+    }
+    &:active,
+    &:focus,
+    &:hover {
+      background: $hoverBtn;
+      border: 0.4em solid $borderActiveBtn;
+      left: -8.3em;
+    }
+    &:active span,
+    &:focus span,
+    &:hover span {
+      margin-left: 8.2em;
+    }
+  }
+  &.next {
+    @include commonBtn;
+    top: 0;
+    margin-top: 0;
+    right: -8.7em;
+    span {
+      width: 5.5em;
+      color: #ffffff;
+      margin-left: -1.9em;
+      @include btnSpan;
+    }
+    &:active,
+    &:focus,
+    &:hover {
+      background: $hoverBtn;
+      border: 0.4em solid $borderActiveBtn;
+      right: -8.3em;
+    }
+    &:active span,
+    &:focus span,
+    &:hover span {
+      left: -1.5em;
+    }
+  }
+}

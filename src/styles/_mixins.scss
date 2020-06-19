@@ -1,0 +1,19 @@
+@import 'params';
+
+@mixin commonBtn {
+  height: 10em;
+  background: $btnDefault;
+  width: 100%;
+  border-radius: 5em;
+  z-index: 100;
+}
+@mixin btnSpan {
+  display: block;
+  font-family: 'Qanelas ExtraBold', serif;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform: rotate(-90deg);
+  font-size: 0.8em;
+}

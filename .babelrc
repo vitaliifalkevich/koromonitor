@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-2",
+    "flow"
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "regenerator": true
+    }]
+  ]
+}
