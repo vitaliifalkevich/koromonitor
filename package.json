@@ -32,7 +32,7 @@
     "webpack-dev-server": "^3.1.8"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chart.js": "^2.9.3",
     "moment": "^2.24.0",
     "react": "^16.12.0",
